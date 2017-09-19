@@ -2,8 +2,8 @@
 ## 概要
 Laravelを利用し、SalesforceのRestAPI経由で、添付ファイルオブジェクトにレコードを作成するサンプル。
 
-Salesforce側のRestAPIのコードは以下のリポジトリを参照。
-
+Salesforce側のRestAPIのコードは以下のリポジトリを参照。  
+<https://github.com/k-usk/laravel-sf-attachment-sameple-sf>
 
 ## 検証環境
 
@@ -47,4 +47,3 @@ PHPの設定に関しては`php.ini`での設定となるので変更が可能�
 * [ファイルのアップロード（１）ファイルのサイズの制限：制限なしでも制限ある](http://www.larajapan.com/2016/03/26/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%AE%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%89%EF%BC%88%EF%BC%91%EF%BC%89%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%AE%E3%82%B5%E3%82%A4%E3%82%BA/)
 * [ガバナ制限](https://developer.salesforce.com/docs/atlas.ja-jp.salesforce_app_limits_cheatsheet.meta/salesforce_app_limits_cheatsheet/salesforce_app_limits_platform_apexgov.htm)
 * [【Salesforce】System.LimitException: Apex heap size too large:](http://www.subnetwork.jp/blog/?p=710)
-
